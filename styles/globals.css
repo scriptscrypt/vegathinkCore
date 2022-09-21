@@ -1,26 +1,72 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+:root{
+  --primary: #2C32C9;
+  --priHover: #1f2281;
+  --white: #FFF;
+  --black: #242424;
+  --grey: #565656;
 }
-
-a {
-  color: inherit;
-  text-decoration: none;
+/*Font sizes desktop*/
+.f1{
+  font-size: 40px;
 }
-
-* {
-  box-sizing: border-box;
+.f2{
+  font-size: 24px;
 }
+.f3{
+  font-size: 16px;
+}
+.bdr{
+  border: 1px solid var(--primary);
+  border-radius: 2px !important;
+}
+.btn{
+  all:unset;
+  padding: 4px 8px !important;
+  background-color: var(--primary);
+  color: var(--white);
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: var(--priHover);
+}
+.link{
+  color:var(--primary)
+}
+.link:hover{
+  color:var(--black)
+}
+.resizeInput{
+  width: 256px;
+}
+.input{
+  padding:4px;
+  width:100%;
+}
+.navLink:hover{
+  color: var(--grey)
+}
+.navBottom{
+  overflow-x: scroll;
+}
+.Land{
+  background-image: "";
+}
+.landTxts{
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+}
+.landImg{
+ 
+}
+@media(max-width:720px){
+  
+/*Font sizes mobile*/
+.f1{
+  font-size: 32px;
+}
+.f2{
+  font-size: 16px;
+}
+.f3{
+  font-size: 8px;
+}
 }
