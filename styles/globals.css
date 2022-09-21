@@ -4,6 +4,7 @@
   --white: #FFF;
   --black: #242424;
   --grey: #565656;
+  --neutral: #F5F5F5;
 }
 /*Font sizes desktop*/
 .f1{
@@ -51,12 +52,7 @@
 .Land{
   background-image: "";
 }
-.landTxts{
 
-}
-.landImg{
- 
-}
 @media(max-width:720px){
   
 /*Font sizes mobile*/
