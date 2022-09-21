@@ -52,7 +52,9 @@
 .Land{
   background-image: "";
 }
-
+.fCards{
+  background-color: var(--neutral);
+}
 @media(max-width:720px){
   
 /*Font sizes mobile*/

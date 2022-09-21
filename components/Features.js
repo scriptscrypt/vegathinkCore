@@ -8,7 +8,7 @@ export default function Features() {
 
   return (
     <>
-        <div className="rfw mp16">
+        <div className="rfw fCards m320">
             <FeaturesCard src={icon1} txt="Certificate on completion of the course" />
             <FeaturesCard src={icon2} txt="Completely online content available in both live or recorded mode" />
             <FeaturesCard src={icon3} txt="Remote access to simulated hardware tools and accesibility through VPN" />

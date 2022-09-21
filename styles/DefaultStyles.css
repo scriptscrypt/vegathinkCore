@@ -70,6 +70,13 @@ body{
   .jusR{
     justify-content: right;
   }
+  /*Align text*/
+  .txtC{
+    text-align: center;
+  }
+  .txtR{
+    text-align: right;
+  }
   /*Margin and Padding*/
   .m8{
     margin:8px;
@@ -79,6 +86,9 @@ body{
   }
   .m08{
     margin:0px 8px;
+  }
+  .m320{
+    margin: 32px 0px;
   }
   .p8{
     padding:8px;
@@ -133,6 +143,9 @@ body{
   .w288{
     width:288px;
   }
+  .w24{
+    width:24%;
+  }
   .w48{
     width:48vw;
   }
@@ -148,7 +161,7 @@ body{
   .h80{
     height:80vh;
   }
-
+ 
   /*Fonts*/
   .head1{
     font-size: var(--f1);
